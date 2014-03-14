@@ -1,0 +1,14 @@
+body {
+	background-color: #e3e3e3;
+}
+.information {
+	margin: auto;
+	background-color: #fff;
+	font-family: Arial;
+	width: 750px;
+	text-align: center;
+	margin-top: 200px;
+	height: 40px;
+	padding-top: 20px;
+	border: 2px solid #d2d2d2;
+}
