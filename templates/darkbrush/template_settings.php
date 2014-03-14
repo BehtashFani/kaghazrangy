@@ -77,7 +77,7 @@ $template['memberlist_avatar_height'] = '20px';
 $template['category_columns'] = 2; // Number of wallpaper columns on the category page
 $template['homepage_columns'] = 2; // Number of category columns on the homepage
 $template['homepage_wallpaper_limit'] = 3; // Number of wallpapers to show per caregory on the homepage
-$template['random_wallpaper_limit'] = 3; // Number of wallpapers to show in the random wallpapers section
+$template['random_wallpaper_limit'] = 4; // Number of wallpapers to show in the random wallpapers section
 $template['wallpapers_per_page'] = 30; // Number of wallpapers to show per page in categories
 
 $template['submitted_wallpaper_limit'] = 6; // 1.1 - Number of submitted wallpapers to show per page on the profile page
