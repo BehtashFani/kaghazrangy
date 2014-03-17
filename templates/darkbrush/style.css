@@ -299,7 +299,7 @@ h3 a:hover {
 	padding-left: 15px; 
 	padding-top: 5px;
 	background-color:#FFF;
-	border-right: 3px solid #4BC5F6;	
+	border-right: 3px solid #02C4CB;	
 	-webkit-box-shadow: 4px 10px 20px -3px rgba(0,0,0,0.75);
     -moz-box-shadow: 	4px 10px 20px -3px rgba(0,0,0,0.75);
     box-shadow: 		4px 10px 20px -3px rgba(0,0,0,0.75);
@@ -335,7 +335,7 @@ h3 a:hover {
 {	
 	color: #000;
 	text-decoration: none;
-	width: 187px;
+	width: 185px;
 	padding:9px 8px;
 	font-size: 14px;
 	display: block;
@@ -344,7 +344,7 @@ h3 a:hover {
 	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	box-shadow:inset 0px 1px 0px 0px #ffffff;
 	background-color:#ffffff;
-	border:1px solid #dcdcdc;
+	border:2px solid #dcdcdc;
 	display:inline-block;
 	cursor:pointer;
 	color:#666;
@@ -359,7 +359,7 @@ h3 a:hover {
 	-webkit-box-shadow:inset 0px 1px 0px 0px #484C56;
 	box-shadow:inset 0px 1px 0px 0px #484C56;
 	background-color:#484C56;;
-	border:1px solid #FFF;
+	border:2px solid #FFF;
 	-webkit-transition: all .5s ease;
      -moz-transition:   all .5s ease;
        -o-transition: 	all .5s ease;
@@ -369,7 +369,8 @@ h3 a:hover {
 
 /* End of left_sidebar styles */
 .center_column {
-	margin-left: 210px;
+	margin-left: 220px;
+	margin-top: 5px;
 }
 
 .center_container {
@@ -462,12 +463,13 @@ h3 a:hover {
 }
 #error_message, .pm_no_messages {
 	padding: 5px 5px 5px 10px;
-	background-color: #222222;
-	margin-bottom: 20px;
-	color:#e0e0e0;
-	font-weight: bold;
-	font-size: 13px;
-	border: 1px solid #26487b;
+	margin-right: 10px;
+	background-color: #1F2228;
+	margin-bottom: 17px;
+	color:#FFF;
+	text-align: center;
+	font-size: 20px;
+	border-bottom: 5px solid #F47121;
 }	
 .module_notice {
 	color: #a8a8a8;
@@ -539,35 +541,35 @@ h3 a:hover {
 
 /* Forms */
 
-.mini_login_form {
-}
 
 .mini_login_form p{
-	margin-right: 12px;
 	font-size: 15px;
+	padding: 7px 5px 7px 5px;
+	background: #7AC943;
+	width: 102.4%;
+	color: #FFF;
 }
 .mini_login_textbox {
-	border: 1px solid #3d3d3d;
-	width: 165px;
+	border: 3px solid #D7D7D7;
+	width: 185px;
 	height: 24px;
 	background: #FFF;
-	font-size: 13px;
-	padding-left: 4px;
-	color: #ededed;
+	font-size: 17px;
+	padding-right: 4px;
+	color: #000;
 	-webkit-transition: all 0.30s ease-in-out;
     -moz-transition: all 0.30s ease-in-out;
     -ms-transition: all 0.30s ease-in-out;
     -o-transition: all 0.30s ease-in-out;
     outline: none;
     padding: 3px 0px 3px 3px;
-    margin: 5px 7px 3px 0px;
-    border: 3px solid #FFF;
+    margin: 5px 4px 3px 0px;
 }
 .mini_login_textbox:focus
 {
 	 box-shadow: 0 0 5px rgba(81, 203, 238, 1);
   	 padding: 3px 0px 3px 3px;
-     margin: 5px 7px 3px 0px;
+     margin: 5px 5px 3px 0px;
      border: 3px solid rgba(81, 203, 238, 1);
 }
 .mini_login_button {
@@ -587,11 +589,91 @@ h3 a:hover {
     text-shadow:0px -1px 0px #7a2a1d;
 }
 
+#main_login_form
+{
+	background-color:#1BA8D5;
+	width:45%;
+	height: 370px;
+	margin:auto;
+	border:10px solid #F1F1F1;
+}
+.login_form
+{
+	background: #FFFFFF;
+	width: 60%;
+	margin: 40px 100px 0px 0px;
+	border: 5px solid #349E94;
+}
+.login_form h1
+{
+	background: #F3F4EF;
+	text-align: center;
+	margin: 0px; 
+	color: #5C5F66;
+}
+.login_form #username
+{
+	background: #F8FAF9;
+	margin: 10px 20px;
+	border: 3px solid #F2F3F5;
+	color: #434A54;
+	width: 250px;
+	height: 25px;
+}
+.login_form #password
+{
+	background: #F8FAF9;
+	margin: 10px 20px;
+	border: 3px solid #F2F3F5;
+	color: #434A54;	
+	width: 250px;
+	height: 25px;
+}
+.remember
+{
+	font-size: 13px;
+}
+#remember_checkbox
+{
+	margin-top: 12px;
+	
+}
 
-
-
-
-
+#lost_password
+{
+	text-decoration: none;
+	text-align: center;
+	font-size: 13px;
+	color: #FFF;
+	margin-right: 180px;
+}
+#dropdown-submit
+{
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	text-indent:0px;
+	border:2px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:30px;
+	width:50px;
+	text-decoration:none;
+	text-align:center;
+	margin: 10px 10px 10px 0px;
+}
+#dropdown_submit:hover
+{
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}
 .search_box {
 	height: 24px;
 	width: 250px;
@@ -681,20 +763,82 @@ hr:before {
 .copyright a {
 	color: #fff;
 }
+
+.main_register_form {
+	font-size: 14px;
+	width: 38%;
+	margin:auto;
+	background: #2e3740;
+	border: 5px solid #1ece6c;
+}
+.main_register_form h1
+{
+	text-align: center;
+	color:#FFF;
+	margin: 0px;
+	border: none;
+	padding-bottom: 10px;
+	background: #BA3A3B;
+}
+.register_form
+{
+	width:60%;
+	margin: auto; 
+}
+.register_form h3
+{
+	color: #FFF;
+	font-size: 15px;
+	font-weight: normal;
+	padding-bottom: 2px;
+	padding-top:0px; 
+	margin: 0px;
+}
 .form_textbox {
 	border:1px solid #3d3d3d;
+	height: 25px;
+	font-size: 12px;
+	color: #fff;
+}
+.form_username,.form_email,.form_passwd,.form_passwd2
+{
+	color:#546378;
+	font-size: 15px;
 	width: 250px;
 	height: 25px;
-	background: url(images/smaller_textbox.png) repeat-x;
-	font-size: 12px;
-	padding-left: 4px;
-	color: #fff;
+
+}
+#registeration_button
+{
+	background-color:#44c767;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:18px;
+	padding:5px 35px;
+	text-decoration:none;
+	margin: 0px 70px 10px 0px;
+}
+#registeration_button:hover
+{
+	background-color:#5cbf2a;
 }
 .socialNetwork
 {
 	float: left;
     text-align: center;
     width: 33.4%;
+}
+.stats_ul
+{
+	background: #9D454C;
+	width: 87%;
+	padding-bottom: 20px;
 }
 .stats_ul li {
 	border-bottom: 1.5px solid #E6E6E6;
@@ -710,13 +854,11 @@ hr:before {
 	font-size: 13px;
 	font-weight: bold;
 	text-align: right;
+	margin-top: 8px;
 }
 .stats_ul li strong
 {
 	float: left;
-}
-.register_form {
-	font-size: 14px;
 }
 /* Homepage */
 .wallpaper_item {
@@ -961,7 +1103,7 @@ hr:before {
 	font-size: 14px;
 	color: #FFF;
 }
-.comment_button_container input:hover, .news_comment_button_container input:hover, .submit_button:hover, .pm_button:hover, .register_button:hover, .link_button:hover, .report_button_container input:hover {
+.comment_button_container input:hover, .news_comment_button_container input:hover, .submit_button:hover, .pm_button:hover, .link_button:hover, .report_button_container input:hover {
 	border-color: #676767;
 }
 .comment_avatar {
